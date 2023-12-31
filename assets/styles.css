@@ -2,6 +2,12 @@
   font-family: Sarala;
 }
 
+/*ICONOS SECCION DESCRIPCION*/
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
 
 /* MENU */
 /* header {
