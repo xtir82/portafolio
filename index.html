@@ -1,138 +1,206 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Andher DEV</title>
 
     <!--BOOTSTRAP & CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
     <!--FUENTES-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap">
+  </head>
 
-<body>
-  <!--HEADER-->
-  <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none logo">
-            <img src="assets/img/Logo AC.png" alt="Logo AC" height="35">
-            <!-- Titulo del Menu <span class="fs-4"></span>-->
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Inicio</a></li>
-            <li class="nav-item"><a href="servicios.html" class="nav-link">Servicios</a></li>
-            <li class="nav-item"><a href="sobre-mi.html" class="nav-link">Sobre mi</a></li>
-            <li class="nav-item"><a href="portafolio.html" class="nav-link">Portafolio</a></li>
-            <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
-          </ul>
-        </header>
+  <body>
+    <!--HEADER-->
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+        <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none logo">
+          <img src="assets/img/Logo AC.png" alt="Logo AC" height="35" />
+          <!-- Titulo del Menu <span class="fs-4"></span>-->
+        </a>
+
+        <ul class="nav nav-pills ">
+          <li class="nav-item">
+            <a href="#" class="nav-link active bg-dark" aria-current="page">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/services.html" class="nav-link">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/about-me.html" class="nav-link">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/portfolio.html" class="nav-link">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/contact.html" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+      </header>
     </div>
-    
+
     <main>
-    <!--HERO-->
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <!--HERO-->
+      <div class="px-4 pt-5 text-center border-bottom gradient-index">
         <h1 class="display-4 fw-bold text-body-emphasis">Andher Dev</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Desarrollador Front-End<p>
+          <p class="lead mb-4">Desarrollador Front-End</p>
+          <p></p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Servicios</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Portafolio</button>
+            <a href="#languages"><button type="button" class="btn btn-dark btn-lg px-4 me-sm-3">
+              Lenguajes
+            </button></a>
+            <a href="#portfolio"><button type="button" class="btn btn-outline-dark btn-lg px-4">
+              Portafolio
+            </button></a>
           </div>
         </div>
-        <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="overflow-hidden" style="max-height: 30vh">
           <div class="container px-5">
-            <img src="./assets/img/code-hero.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Codigo HTML" width="700" height="500" loading="lazy">
+            <img
+              src="./assets/img/code-hero.jpg"
+              class="img-fluid border rounded-3 shadow-lg mb-4"
+              alt="Codigo HTML"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
           </div>
         </div>
-    </div>
+      </div>
 
-    <!--DESCRIPCION-->
-    <div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 border-bottom">Lenguajes</h2>
+      <!--LENGUAJES-->
+      <div class="container px-4 py-5" id="languages">
+        <h2 class="pb-2 border-bottom">Lenguajes que uso actualmente..</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-danger">
-                <i class="fa-brands fa-html5"></i>
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-danger"
+            >
+              <i class="fa-brands fa-html5"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">HTML</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
+            <p>
+              HTML es el lenguaje de marcado utilizado para crear y diseñar documentos en la World Wide Web. HTML es el lenguaje utilizado en este portafolio y otros proyectos para la creación de la estructura de cada página.
+            </p>
+            <!-- <a href="#" class="icon-link">Call to action<svg class="bi"><use xlink:href="#chevron-right"></use></svg></a> -->
           </div>
           <div class="feature col">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-css3-alt"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">CSS</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            <p>CSS es un lenguaje de estilos. CSS es el lenguaje utilizado para definir como se muestran los elementos en nuestro sitio web. Colores, fuentes, espaciado y otros aspectos visuales. En este portafolio utilizo el framework Bootstrap y el preprocesador SASS, los cuales son elementos que mejoran la experiencia de CSS.</p>
+            <!--  <a href="#" class="icon-link">Call to action<svg class="bi"><use xlink:href="#chevron-right"></use></svg> -->
             </a>
           </div>
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-warning">
-                <i class="fa-brands fa-js"></i>
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-warning"
+            >
+              <i class="fa-brands fa-js"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">JavaScript</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            <p>
+              JavaScript es un lenguaje de programación interpretado de alto nivel que se utiliza principalmente para crear contenido dinámico e interactivo en sitios web. Para los efectos de animación y algunas funcionalidades del sitio se ha utilizado JS. ¡Pronto tendré más proyectos en JS en la sección de Portafolio!
+            </p>
+            <!-- <a href="#" class="icon-link">Call to action<svg class="bi"><use xlink:href="#chevron-right"></use></svg> -->
             </a>
           </div>
         </div>
       </div>
 
-    <!--PORTAFOLIO-->
-    <div class="container bg-3 text-center">    
-        <h3>Portafolio</h3><br>
+      <!--PORTAFOLIO-->
+      <div class="container bg-3 text-center" id="portfolio">
+        <h3>Portafolio</h3>
+        <br />
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-            <p>XtirWeb</p>
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-4"> 
-            <p>Tu Centro Terapeutico</p>
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-4"> 
-            <p>Taller Flash</p>
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <a href="https://www.xtirweb.com" target="_blank" class="port-link"><h5>XtirWeb</h5>
+            <img src="assets/img/xtirweb.com.png"
+              class="img-responsive"
+              style="width: 100%"
+              alt="Image"
+            /></a>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-            <p>Lander Copy Digital</p>
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <a href="https://www.tucentroterapeutico.com" target="_blank" class="port-link"><h5>Tu Centro Terapeutico</h5>
+            <img
+              src="assets/img/tucentroterapeutico.com.png"
+              class="img-responsive"
+              style="width: 100%"
+              alt="Image"
+            /></a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <a href="https://www.tallerflash.com" target="_blank" class="port-link"><h5>Taller Flash</h5>
+            <img
+              src="assets/img/tallerflash.com.png"
+              class="img-responsive"
+              style="width: 100%"
+              alt="Image"
+            /></a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <a href="https://www.landercopy.com" target="_blank" class="port-link"><h5>Lander Copy Digital</h5>
+            <img
+              src="assets/img/landercopydigital.com.png"
+              class="img-responsive"
+              style="width: 100%"
+              alt="Image"/></a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <a href="pages/XtirDev/index.html" target="_blank" class="port-link"><h5>Xtir Dev - Flexbox</h5>
+            <img
+              src="assets/img/xtirdev_flexbox.png"
+              class="img-responsive"
+              style="width: 100%"
+              alt="Image"/></a>
           </div>
         </div>
-      </div><br>
+      </div>
+      <br />
     </main>
 
     <!--FOOTER-->
     <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Andherson Castro</span>
-          </div>
-      
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-linkedin" height="30"><use xlink:href="#twitter"></use></i></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-instagram" height="30"><use xlink:href="#instagram"></use></i></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-          </ul>
-        </footer>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Andherson Castro</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="https://www.linkedin.com/in/andherson-castro/"><i class="fa-brands fa-linkedin" height="30"><use xlink:href="#linkedin"></use></i></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="fa-brands fa-instagram" height="30"
+                ><use xlink:href="#instagram"></use></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook"></use></svg></a>
+          </li>
+        </ul>
+      </footer>
     </div>
 
     <!--BOOTSTRAP JS-->
@@ -140,7 +208,5 @@
 
     <!--FontsAwesome-->
     <script src="https://kit.fontawesome.com/8f265f47e2.js" crossorigin="anonymous"></script>
-
-</body>
-
+  </body>
 </html>

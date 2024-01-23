@@ -1,0 +1,92 @@
+@use 'base';
+
+//VARIABLES
+$link-color: #212529;
+$link-color-hover: #424649;
+
+//MIXINS
+@mixin gradient-colors($color1, $color2, $color3) {
+  background: linear-gradient(300deg, $color1, $color2, $color3);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+
+
+/* HEADER */
+.logo {
+  margin-right: 2rem;
+}
+
+.nav-link {
+  color: $link-color;
+}
+.nav-link:hover {
+  color: $link-color-hover;
+}
+
+
+
+.menu-logo {
+  /*Sin usar*/
+  width: 80px;
+  display: inline;
+  padding: 1rem;
+}
+
+/* JUMBOTRON */
+.gradient-index {
+  @include gradient-colors(#00bfff, #ff4c68,#ef8172);
+}
+
+.gradient-services {
+  @include gradient-colors(#00ff40, #ff4c68,#d0ef72);
+}
+
+.gradient-aboutme {
+  @include gradient-colors(#bb00ff, #ff4c68,#72e0ef);
+}
+
+.gradient-portfolio {
+  @include gradient-colors(#eaff00, #ff4c68,#ef72e5);
+}
+
+.gradient-contact {
+  @include gradient-colors(#ff8400, #ff4c68,#7276ef);
+}
+
+
+
+
+
+/* LENGUAJES */
+/*Iconos*/
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+
+/* PORTFOLIO */
+.port-link {
+  color: $link-color;
+  text-decoration: none;
+}
+.port-link:hover {
+  color: $link-color-hover;
+}
+
+//ANIMACION
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

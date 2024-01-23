@@ -1,0 +1,13 @@
+$base-font: 'Sarala';
+$title-font: 'Kalam';
+
+$link-color: #212529;
+$link-color-hover: #424649;
+
+* {
+    font-family: $base-font;
+}
+
+h1 {
+    font-family: $title-font;
+}
