@@ -37,27 +37,24 @@ $link-color-hover: #424649;
 
 /* JUMBOTRON */
 .gradient-index {
-  @include gradient-colors(#00bfff, #ff4c68,#ef8172);
+  @include gradient-colors(#ffffff00, #2753aa, #7a2ce7);
 }
 
 .gradient-services {
-  @include gradient-colors(#00ff40, #ff4c68,#d0ef72);
+  @include gradient-colors(#00ff40, #ff4c68, #d0ef72);
 }
 
 .gradient-aboutme {
-  @include gradient-colors(#bb00ff, #ff4c68,#72e0ef);
+  @include gradient-colors(#bb00ff, #ff4c68, #72e0ef);
 }
 
 .gradient-portfolio {
-  @include gradient-colors(#eaff00, #ff4c68,#ef72e5);
+  @include gradient-colors(#eaff00, #ff4c68, #ef72e5);
 }
 
 .gradient-contact {
-  @include gradient-colors(#ff8400, #ff4c68,#7276ef);
+  @include gradient-colors(#ff8400, #ff4c68, #7276ef);
 }
-
-
-
 
 
 /* LENGUAJES */

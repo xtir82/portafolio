@@ -28,7 +28,7 @@ h1 {
 
 /* JUMBOTRON */
 .gradient-index {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: linear-gradient(300deg, rgba(255, 255, 255, 0), #2753aa, #7a2ce7);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }

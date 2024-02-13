@@ -29,9 +29,9 @@
           <li class="nav-item">
             <a href="#" class="nav-link active bg-dark" aria-current="page">Inicio</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a href="pages/services.html" class="nav-link">Servicios</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="pages/about-me.html" class="nav-link">Sobre mi</a>
           </li>
@@ -53,8 +53,8 @@
           <p class="lead mb-4">Desarrollador Front-End</p>
           <p></p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <a href="#languages"><button type="button" class="btn btn-dark btn-lg px-4 me-sm-3">
-              Lenguajes
+            <a href="assets/andherson-castro-resume.pdf" target="_blank"><button type="button" class="btn btn-dark btn-lg px-4 me-sm-3">
+              Descargar CV
             </button></a>
             <a href="#portfolio"><button type="button" class="btn btn-outline-dark btn-lg px-4">
               Portafolio
@@ -64,7 +64,7 @@
         <div class="overflow-hidden" style="max-height: 30vh">
           <div class="container px-5">
             <img
-              src="./assets/img/code-hero.jpg"
+              src="assets/img/code-hero.jpg"
               class="img-fluid border rounded-3 shadow-lg mb-4"
               alt="Codigo HTML"
               width="700"
@@ -75,40 +75,55 @@
         </div>
       </div>
 
-      <!--LENGUAJES-->
-      <div class="container px-4 py-5" id="languages">
-        <h2 class="pb-2 border-bottom">Lenguajes que uso actualmente..</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
+      <!--HABILIDADES-->
+      <div class="container px-4 py-5" id="habilidades">
+        <h2 class="pb-2 border-bottom"><i class="fa-solid fa-code"></i> Habilidades</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 row-cols-sm-2">
+          <div class="feature col mb-3">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-danger"
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-2 bg-dark"
+            >
+            <i class="fa-solid fa-compass-drafting"></i>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Desarrollo Web</h3>
+            <p>
+              <i class="fa-brands fa-github"></i> Github <br>
+              <i class="fa-brands fa-figma"></i> Figma
+            </p>
+            <!-- <a href="#" class="icon-link">Call to action<svg class="bi"><use xlink:href="#chevron-right"></use></svg></a> -->
+          </div>
+          <div class="feature col mb-3">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-2 bg-danger"
             >
               <i class="fa-brands fa-html5"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">HTML</h3>
             <p>
-              HTML es el lenguaje de marcado utilizado para crear y diseñar documentos en la World Wide Web. HTML es el lenguaje utilizado en este portafolio y otros proyectos para la creación de la estructura de cada página.
+              <i class="fa-solid fa-file-code"></i> HTML Semantico
             </p>
             <!-- <a href="#" class="icon-link">Call to action<svg class="bi"><use xlink:href="#chevron-right"></use></svg></a> -->
           </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <div class="feature col mb-3">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-2">
               <i class="fa-brands fa-css3-alt"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">CSS</h3>
-            <p>CSS es un lenguaje de estilos. CSS es el lenguaje utilizado para definir como se muestran los elementos en nuestro sitio web. Colores, fuentes, espaciado y otros aspectos visuales. En este portafolio utilizo el framework Bootstrap y el preprocesador SASS, los cuales son elementos que mejoran la experiencia de CSS.</p>
+            <p>
+              <i class="fa-brands fa-bootstrap"></i> Bootstrap <br>
+              <i class="fa-brands fa-sass"></i> Sass
+            </p>
             <!--  <a href="#" class="icon-link">Call to action<svg class="bi"><use xlink:href="#chevron-right"></use></svg> -->
             </a>
           </div>
-          <div class="feature col">
+          <div class="feature col mb-3">
             <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 bg-warning"
-            >
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-2 bg-warning">
               <i class="fa-brands fa-js"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">JavaScript</h3>
             <p>
-              JavaScript es un lenguaje de programación interpretado de alto nivel que se utiliza principalmente para crear contenido dinámico e interactivo en sitios web. Para los efectos de animación y algunas funcionalidades del sitio se ha utilizado JS. ¡Pronto tendré más proyectos en JS en la sección de Portafolio!
+              <i class="fa-brands fa-node-js"></i> Node.JS
             </p>
             <!-- <a href="#" class="icon-link">Call to action<svg class="bi"><use xlink:href="#chevron-right"></use></svg> -->
             </a>
@@ -176,7 +191,7 @@
             href="/"
             class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
           >
-            <svg class="bi" width="30" height="24">
+            <svg class="bi" width="30" height="40">
               <use xlink:href="#bootstrap"></use>
             </svg>
           </a>
@@ -186,18 +201,10 @@
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li class="ms-3">
-            <a class="text-body-secondary" href="https://www.linkedin.com/in/andherson-castro/"><i class="fa-brands fa-linkedin" height="30"><use xlink:href="#linkedin"></use></i></a>
+            <a class="text-body-secondary" href="https://www.linkedin.com/in/andherson-castro/"><i class="fa-brands fa-linkedin" height="40"><use xlink:href="#linkedin"></use></i></a>
           </li>
           <li class="ms-3">
-            <a class="text-body-secondary" href="#"
-              ><i class="fa-brands fa-instagram" height="30"
-                ><use xlink:href="#instagram"></use></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a class="text-body-secondary" href="#"
-              ><svg class="bi" width="24" height="24">
-                <use xlink:href="#facebook"></use></svg></a>
+            <a class="text-body-secondary" href="https://github.com/xtir82"><i class="fa-brands fa-github" height="40"><use xlink:href="#github"></use></i></a>
           </li>
         </ul>
       </footer>
