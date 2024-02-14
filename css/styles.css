@@ -13,6 +13,7 @@ h1 {
 
 .nav-link {
   color: #212529;
+  font-size: 0.9rem;
 }
 
 .nav-link:hover {
